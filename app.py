@@ -224,9 +224,16 @@ if predict_btn:
 
     try:
 
-        poly_input = poly.transform(df)
 
+        poly_input = poly.transform(df)
         prediction = model.predict(poly_input)[0]
+        
+        prediction = abs(prediction)
+        
+        if prediction > 200000:
+            prediction = prediction / 1
+        
+        prediction = round(prediction)/10 * 100
 
         st.markdown("---")
 
