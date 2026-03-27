@@ -145,32 +145,22 @@ salary-prediction/
 
 ## ▶️ How to Run the Project
 
-### 1. Clone Repository
+###  Clone Repository
 
 ```
-git clone https://github.com/Hariom-patidar-tech/salary-prediction.git
-cd salary-prediction
+git clone https://github.com/Hariom-patidar-tech/Salary-Prediction-System.git
+cd Salary-Prediction-System
 ```
 
-### 2. Create Virtual Environment
 
-```
-python -m venv venv
-```
 
-### 3. Activate Environment
-
-```
-venv\Scripts\activate
-```
-
-### 4. Install Dependencies
+###  Install Dependencies
 
 ```
 pip install -r requirements.txt
 ```
 
-### 5. Run Application
+###  Run Application
 
 ```
 streamlit run app.py
