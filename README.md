@@ -214,7 +214,8 @@ streamlit run app.py
 * Advanced ML models (XGBoost, Random Forest)
 * Deployment on cloud
 * AI-based career recommendation
-
+---
+## Deploy -  https://salary-prediction-system-2sme.onrender.com
 ---
 
 ##  Author
