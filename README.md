@@ -223,9 +223,6 @@ streamlit run app.py
 **Hariom Patidar**
 
 ---
-## Deploy on render -- https://salary-prediction-0i57.onrender.com
-
----
 
 ##  Support
 
