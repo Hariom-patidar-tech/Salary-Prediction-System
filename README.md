@@ -168,6 +168,12 @@ streamlit run app.py
 
 ---
 
+### Image
+<img width="1810" height="813" alt="image" src="https://github.com/user-attachments/assets/e82d5ad9-522e-4424-b80a-a82b3649027c" />
+<img width="1745" height="411" alt="image" src="https://github.com/user-attachments/assets/cebc620e-17ec-4176-ba34-af52a3e463f9" />
+
+
+
 ##  How the System Works
 
 ### User Inputs:
