@@ -156,12 +156,11 @@ font-size:15px;
 
 @st.cache_resource
 def load_assets():
-    model = joblib.load("salary_prediction_model.pkl")
-    poly = joblib.load("poly_transform.pkl")
+    model = joblib.load("salary_model.pkl")
     columns = joblib.load("model_columns.pkl")
-    return model, poly, columns
+    return model, columns
 
-model, poly, model_columns = load_assets()
+model, model_columns = load_assets()
 
 
 st.markdown("<div class='main-title'> Salary Prediction </div>", unsafe_allow_html=True)
@@ -225,16 +224,8 @@ if predict_btn:
     try:
 
 
-        poly_input = poly.transform(df)
-        prediction = model.predict(poly_input)[0]
-        
-        prediction = abs(prediction)
-        
-        if prediction > 200000:
-            prediction = prediction / 1
-        
-        prediction = round(prediction)/10 * 100
-
+        prediction = model.predict(df)[0]
+ 
         st.markdown("---")
 
         c1,c2,c3 = st.columns(3)
