@@ -1,7 +1,7 @@
 import streamlit as st
 import joblib
 import pandas as pd
-import numpy as np
+import numpy as np 
 
 st.set_page_config( 
     page_title="SalaryAI Pro",
