@@ -197,7 +197,7 @@ with col2:
         if "Job Title_" in col
     ])
 
-    job_title = st.selectbox("Job Title",job_titles)
+    job_title = st.selectbox("Job Title",job_titles) 
 
     predict_btn = st.button("Predict Salary")
 
