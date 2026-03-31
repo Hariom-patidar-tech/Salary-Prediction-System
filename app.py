@@ -6,7 +6,7 @@ import numpy as np
 st.set_page_config( 
     page_title="SalaryAI Pro",
     page_icon="",
-    layout="wide"
+    layout="wide" 
 )
 
 st.markdown("""
