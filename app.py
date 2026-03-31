@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 import numpy as np
 
-st.set_page_config(
+st.set_page_config( 
     page_title="SalaryAI Pro",
     page_icon="",
     layout="wide"
